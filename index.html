@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>guessing numebr</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Matemasie&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-image: url('bgguess.png');
+        }
+        .cont{
+            border: 3px black ;
+            border-radius: 30px;
+            margin: 20px; /* adjusted margin to 20px */
+            padding: 40px;
+            text-align: center;
+            background-color: #d5dce2f0;
+            font-size:23px;
+            font-family: "Matemasie", sans-serif;
+            font-style: normal;
+        }
+        input[type="button"] {
+        font-size: 18px; /* adjust the font size to your liking */
+        border-radius: 20px;
+        background-color: #fc303085;
+        }
+        .start-game-text {
+        font-size: 19px; /* increase font size to 30px */
+         font-weight:normal; /* optional: make the text bold */
+        }
+
+       
+    </style>
+</head>
+<body>
+    <div class="cont">
+    <form action="guessing_game.php">
+        <span class="start-game-text"><u>START GAME-></u></span>
+    <input type="button" value="start" onclick="location.href='guessing_game.php'">
+    </form>
+</div>
+
+</body>
+</html>
